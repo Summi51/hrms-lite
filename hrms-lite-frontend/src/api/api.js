@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://hrms-lite-burlbi9fc-summi51s-projects.vercel.app/api",
+  baseURL: "https://hrms-lite-nqd7sn3x1-summi51s-projects.vercel.app/api",
   headers: { "Content-Type": "application/json" },
   timeout: 10000, // 10 second timeout
 });
