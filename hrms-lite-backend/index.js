@@ -35,16 +35,20 @@ app.use((err, req, res, next) => {
   res.status(500).json({ success: false, msg: "Internal server error" });
 });
 
-// Start server
+// Connect DB and start server
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, async () => {
-  try {
-    await connectDB();
+connectDB()
+  .then(() => {
     console.log("MongoDB connected");
-  } catch (error) {
+    app.listen(PORT, () => {
+      console.log(`HRMS Lite server running on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
     console.error("DB connection error:", error.message);
     process.exit(1);
-  }
-  console.log(`HRMS Lite server running on port ${PORT}`);
-});
+  });
+
+// Export for Vercel serverless
+module.exports = app;
