@@ -5,7 +5,7 @@
 - **Frontend:** [https://hrms-lite-frontent-4qqptogqt-summi51s-projects.vercel.app/](https://hrms-lite-frontend-seven-dusky.vercel.app/)
 - **Backend API:** [https://hrms-lite-backend-eight.vercel.app/](https://hrms-lite-backend-eight.vercel.app)
 
-A lightweight Human Resource Management System (HRMS) with separate backend (Node.js/Express/MongoDB) and frontend (React/Vite/MUI) applications.
+Full-Stack HRMS Lite system with Admin, HR, and Employee portals for attendance and employee management, featuring separate backend (Node.js, Express, MongoDB) and frontend (React, Vite, MUI) applications.
 
 ---
 
