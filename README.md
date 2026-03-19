@@ -96,5 +96,19 @@ The frontend will run on `http://localhost:5173` (default Vite port).
 
 ---
 
-## License
-MIT
+## Screen Shorts
+
+### Register/Login
+
+<img width="2860" height="1532" alt="image" src="https://github.com/user-attachments/assets/78b19441-1c91-49c9-ae84-f36e63b22f01" />
+<img width="2880" height="1562" alt="image" src="https://github.com/user-attachments/assets/f4dd0c92-34e4-4fab-a5d7-e8c99c3569cd" />
+
+### Dashboard
+
+<img width="2880" height="1494" alt="image" src="https://github.com/user-attachments/assets/265d3f8c-e4f9-4804-bf89-b660360d81bd" />
+
+### Employee/Attendance Mark
+
+<img width="2880" height="1542" alt="image" src="https://github.com/user-attachments/assets/f528f095-1edc-4fa6-8e30-a2d5b10f83dc" />
+<img width="2880" height="1570" alt="image" src="https://github.com/user-attachments/assets/ab017dd4-246c-4530-b63e-710a43a14424" />
+
